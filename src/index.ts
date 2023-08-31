@@ -1,1 +1,4 @@
-console.log('Hello, my name is Jakey jake');
+import { Canvas } from './Widget';
+
+const canvas = new Canvas(document.body)
+console.log(canvas);
